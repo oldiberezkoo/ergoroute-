@@ -4,6 +4,12 @@ import chokidar from "chokidar"
 import { EventEmitter } from "events"
 import type { Elysia } from "elysia"
 
+// todo
+// - [x] Добавить поддержку middleware
+// - [x] Добавить поддержку отложенных запросов
+// - [x] Добавить поддержку строковых запросов
+// - [x] Добавить поддержку мультипараметров
+
 // Определение интерфейса конфигурации
 export interface Config {
 	sourceDirectory?: string
