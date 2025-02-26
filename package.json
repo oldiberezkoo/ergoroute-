@@ -1,0 +1,32 @@
+{
+	"name": "ergoroute",
+	"module": "index.ts",
+
+  "scripts": {
+    "build": "bun run -m src/index.ts",
+    "test": "vitest run"
+  },
+	"author": {
+		"name": "oldiberezkoo",
+		"url": "https://gravatar.com/oldiberezko"
+	},
+	"homepage": "https://github.com/oldiberezkoo/ergoroute",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oldiberezkoo/ergoroute.git"
+	},
+	"description": "Динамический роутинг для Bun",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@elysiajs/node": "^1.2.6",
+		"@types/bun": "^1.2.4",
+		"@types/node": "^22.13.5",
+		"chokidar": "^4.0.3",
+		"typescript": "^5.0.0",
+		"vitest": "^3.0.7"
+	},
+	"peerDependencies": {
+		"elysia": "^1.2.22"
+	}
+}
