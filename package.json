@@ -1,11 +1,10 @@
 {
 	"name": "ergoroute",
 	"module": "index.ts",
-
-  "scripts": {
-    "build": "bun run -m src/index.ts",
-    "test": "vitest run"
-  },
+	"scripts": {
+		"build": "bun run -m src/index.ts",
+		"test": "vitest run"
+	},
 	"author": {
 		"name": "oldiberezkoo",
 		"url": "https://gravatar.com/oldiberezko"
@@ -28,5 +27,8 @@
 	},
 	"peerDependencies": {
 		"elysia": "^1.2.22"
+	},
+	"dependencies": {
+		"ergoroute": "file:"
 	}
 }
